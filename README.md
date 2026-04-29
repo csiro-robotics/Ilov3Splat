@@ -1,6 +1,6 @@
 # Ilov3Splat
 
-This is the repository that contains source code for the [Ilov3Splat website](https://ilov3splat.github.io).
+This is the repository that contains source code for the [Ilov3Splat website](https://csiro-robotics.github.io/Ilov3Splat).
 
 If you find Ilov3Splat useful for your work please cite:
 ```
