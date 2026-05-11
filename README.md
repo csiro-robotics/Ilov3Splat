@@ -8,9 +8,9 @@
 <sup>1</sup>Queensland University of Technology&emsp;&emsp;&emsp;<sup>2</sup>CSIRO Robotics
 <br>
 
-<a href=""><img src='https://img.shields.io/badge/Paper-Coming_Soon-red' alt='Paper PDF'></a>
-<a href=""><img src='https://img.shields.io/badge/arXiv-Coming_Soon-orange' alt='arXiv'></a>
-<a href="https://ilov3splat.github.io"><img src='https://img.shields.io/badge/Project_Page-Ilov3Splat-green' alt='Project Page'></a>
+<a href="https://arxiv.org/pdf/2605.04506.pdf"><img src='https://img.shields.io/badge/Paper-PDF-red' alt='Paper PDF on arXiv'></a>
+<a href="https://arxiv.org/abs/2605.04506"><img src='https://img.shields.io/badge/arXiv-2605.04506-b31b1b' alt='arXiv abstract'></a>
+<a href="https://csiro-robotics.github.io/Ilov3Splat"><img src='https://img.shields.io/badge/Project_Page-Ilov3Splat-green' alt='Project Page'></a>
 <a href=""><img src='https://img.shields.io/badge/Code-Coming_Soon-blue' alt='Code'></a>
 </div>
 
@@ -22,7 +22,8 @@ This repository hosts the project page and supporting materials for **Ilov3Splat
 ## News
 
 - **March 2026:** Ilov3Splat is accepted to ICPR 2026.
-- **2026:** Paper, arXiv, and code links will be updated when available.
+- **May 2026:** [arXiv preprint](https://arxiv.org/abs/2605.04506) is available.
+- **2026:** code will be updated when released.
 
 
 ## Acknowledgements
