@@ -11,7 +11,7 @@
 <a href="https://arxiv.org/pdf/2605.04506.pdf"><img src='https://img.shields.io/badge/Paper-PDF-red' alt='Paper PDF on arXiv'></a>
 <a href="https://arxiv.org/abs/2605.04506"><img src='https://img.shields.io/badge/arXiv-2605.04506-b31b1b' alt='arXiv abstract'></a>
 <a href="https://csiro-robotics.github.io/Ilov3Splat"><img src='https://img.shields.io/badge/Project_Page-Ilov3Splat-green' alt='Project Page'></a>
-<a href="https://github.com/csiro-robotics/Ilov3Splat-private"><img src='https://img.shields.io/badge/Code-Private_Repo-blue' alt='Code in private repository'></a>
+<a href=""><img src='https://img.shields.io/badge/Code-Coming_Soon-blue' alt='Code'></a>
 </div>
 
 This repository hosts the project page and supporting materials for **Ilov3Splat**, an instance-level open-vocabulary 3D scene understanding framework built on Gaussian Splatting and accepted at ICPR 2026.
@@ -22,11 +22,9 @@ This repository hosts the project page and supporting materials for **Ilov3Splat
 
 - **March 2026:** Ilov3Splat is accepted to ICPR 2026.
 - **May 2026:** [arXiv preprint](https://arxiv.org/abs/2605.04506) is available.
-- **June 2026:** Source code is available in the [private repository](https://github.com/csiro-robotics/Ilov3Splat-private).
+- **2026:** code will be updated when released.
 
 ## Installation
-
-See the [private repository](https://github.com/csiro-robotics/Ilov3Splat-private) for installation and usage instructions.
 
 ## Acknowledgement
 
