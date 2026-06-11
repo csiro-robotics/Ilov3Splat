@@ -7,6 +7,7 @@ name = "ilov3splat"
 description = "Ilov3Splat: Instance-level open-vocabulary Gaussian Splatting plugin for Nerfstudio."
 version = "0.1.0"
 readme = "README.md"
+license = { text = "CSIRO BSD-3-Clause-Clear (Non-Commercial)" }
 requires-python = ">=3.10,<3.13"
 dependencies = [
     # --- Nerfstudio / splats ---
