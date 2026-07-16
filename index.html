@@ -103,7 +103,8 @@
                 </span>
                 <!-- Code Link. -->
                 <span class="link-block">
-                  <a href="#" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://github.com/csiro-robotics/Ilov3Splat" class="external-link button is-normal is-rounded is-dark"
+                    target="_blank" rel="noopener noreferrer">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
@@ -202,11 +203,46 @@
       <!--/ Experiments. -->
 
       <!-- Video. -->
-      <div class="columns is-centered has-text-centered">
+      <div class="columns is-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3">Videos</h2>
-          <div class="content has-text-centered">
-            <p>Video will be added soon.</p>
+          <h2 class="title is-3 has-text-centered">Videos</h2>
+
+          <div class="content">
+            <h3 class="title is-4 has-text-centered">Feature Fields</h3>
+            <div class="video-compare" id="feature-compare" aria-label="Compare color and PCA feature renderings">
+              <!-- Base (right): PCA feature rendering -->
+              <video class="video-compare-base" id="feature-video-instance" muted playsinline loop autoplay>
+                <source src="./static/videos/output_instance.mp4" type="video/mp4">
+              </video>
+              <!-- Overlay (left): color rendering -->
+              <div class="video-compare-overlay" id="feature-compare-overlay">
+                <video class="video-compare-top" id="feature-video-rgb" muted playsinline loop autoplay>
+                  <source src="./static/videos/output_rgb.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="video-compare-slider" id="feature-compare-slider" role="slider"
+                aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-label="Reveal color or feature rendering"
+                tabindex="0">
+                <div class="video-compare-handle" aria-hidden="true">
+                  <i class="fas fa-caret-left"></i>
+                  <i class="fas fa-caret-right"></i>
+                </div>
+              </div>
+              <span class="video-compare-label video-compare-label-left">RGB Rendering</span>
+              <span class="video-compare-label video-compare-label-right">Feature Rendering</span>
+            </div>
+            <p class="has-text-centered figure-caption">
+              Interactive visualization of RGB rendering and the learned instance feature field of
+              <span class="textsc">Ilov3Splat</span>. Drag the slider to compare the two views.
+            </p>
+
+            <h3 class="title is-4 has-text-centered mt-5">Multi-view Consistency</h3>
+            <video class="demo-video" id="mosaic-video" muted playsinline loop autoplay controls>
+              <source src="./static/videos/mosaic.mp4" type="video/mp4">
+            </video>
+            <p class="has-text-centered figure-caption">
+              Multi-view consistency of <span class="textsc">Ilov3Splat</span> for 3D object selection on the LERF dataset.
+            </p>
           </div>
         </div>
       </div>
@@ -247,7 +283,7 @@
         <a class="icon-link" href="https://arxiv.org/pdf/2605.04506.pdf" target="_blank" rel="noopener noreferrer">
           <i class="fas fa-file-pdf"></i>
         </a>
-        <a class="icon-link" href="#">
+        <a class="icon-link" href="https://github.com/csiro-robotics/Ilov3Splat" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-github"></i>
         </a>
       </div>
