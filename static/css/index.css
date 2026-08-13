@@ -82,16 +82,17 @@ body {
     font-family: 'Google Sans', sans-serif;
 }
 
-/* Two-line hero title: fluid size overrides Bulma `.title.is-1`; each line stays one row */
+/* Fluid title size; allow natural wrapping */
 h1.title.is-1.publication-title {
     font-family: 'Google Sans', sans-serif;
-    font-size: clamp(1rem, 2.6vw + 0.55rem, 3rem);
-    line-height: 1.2;
+    font-size: clamp(1.35rem, 2.2vw + 0.75rem, 2.75rem);
+    line-height: 1.25;
 }
 
-.publication-title .publication-title-line {
-    display: block;
-    white-space: nowrap;
+/* Acronym letters forming Ilov3Splat */
+.publication-title .acronym {
+    color: #8B0000;
+    font-weight: 700;
 }
 
 .publication-authors {
