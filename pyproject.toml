@@ -25,7 +25,6 @@ dependencies = [
     "Pillow>=9.0",
     "scikit-learn>=1.6.1",
     "open3d>=0.19.0",
-    "plyfile>=1.1",
     "pyyaml>=6.0",
     # --- GPU clustering (CPU fallback: hdbscan + scikit-learn above) ---
     "cuml-cu12==25.4.*",

@@ -117,13 +117,6 @@ This software is licensed under the MIT license.
 ___________________________________________________________________
 ___________________________________________________________________
 
-plyfile https://github.com/dranjan/python-plyfile
-
-This software is licensed under a BSD-style license.
-
-___________________________________________________________________
-___________________________________________________________________
-
 PyYAML https://pyyaml.org/
 
 This software is licensed under the MIT license.
