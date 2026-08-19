@@ -34,10 +34,15 @@ This work was supported in part by the Australian Research Council Discovery Pro
 If you find this repository useful, please cite:
 ```
 @inproceedings{nguyen2026ilov3splat,
-  author    = {Nguyen, Binh Long and Nguyen, Kien and Sridharan, Sridha and Fookes, Clinton and Moghadam, Peyman},
-  title     = {Ilov3Splat: Instance-Level Open-Vocabulary 3D Scene Understanding in Gaussian Splatting},
-  booktitle = {International Conference on Pattern Recognition (ICPR)},
-  year={2026}
+author = {Nguyen, Binh Long and Nguyen, Kien and Sridharan, Sridha and Fookes, Clinton and Moghadam, Peyman},
+title = {Ilov3Splat: Instance-Level Open-Vocabulary 3D Scene Understanding in&nbsp;Gaussian Splatting},
+year = {2026},
+url = {https://doi.org/10.1007/978-3-032-31666-0_17},
+doi = {10.1007/978-3-032-31666-0_17},
+booktitle = {28th International Conference on Pattern Recognition (ICPR), ICPR 2026},
+pages = {251–266},
+numpages = {16},
+location = {Lyon, France}
 }
 ```
 
