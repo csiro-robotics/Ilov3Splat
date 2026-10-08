@@ -31,7 +31,6 @@
   <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
-  <!-- <link rel="icon" href="./static/images/favicon-heart-gradient.svg"> -->
   <link rel="icon" type="image/png" href="./static/images/Ilov3splat.png">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -42,6 +41,40 @@
 </head>
 
 <body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="https://github.com/csiro-robotics" target="_blank" rel="noopener noreferrer">
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">
+            More Research
+          </a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://csiro-robotics.github.io/Ilov3Splat/">
+              Ilov3Splat
+            </a>
+            <a class="navbar-item" href="https://csiro-robotics.github.io/OpenSplatGraph/" target="_blank"
+              rel="noopener noreferrer">
+              OpenSplatGraph
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 
   <section class="hero">
     <div class="hero-body">
@@ -123,9 +156,8 @@
     </div>
   </section>
 
-  <section class="section">
+  <section class="section section-alt" id="Abstract">
     <div class="container is-max-desktop">
-      <!-- Abstract. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <h2 class="title is-3">Abstract</h2>
@@ -150,21 +182,15 @@
           </div>
         </div>
       </div>
-      <!--/ Abstract. -->
+    </div>
+  </section>
 
-      <!-- Method. -->
+  <section class="section" id="Method">
+    <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <h2 class="title is-3">Method</h2>
           <div class="content">
-            <!-- <img src="./static/images/comparison.png" alt="Comparison between prior methods and Ilov3Splat" style="width: 80%;">
-            <p class="has-text-justified">
-              Comparison between 2D-rendered, point-level, and our instance-level 3D open-vocabulary understanding
-              approaches. Prior methods either rely on rendered 2D supervision, which lacks cross-view consistency, or
-              point-level feature matching, which often results in scattered or noisy activations. In contrast, our
-              method introduces a unified instance-level representation that maintains semantic coherence across views
-              and enables precise retrieval of object-centric 3D Gaussians via text queries.
-            </p> -->
             <img src="./static/images/overview.png" alt="Overview of Ilov3Splat">
             <p class="has-text-justified">
               <strong>An overview of <span class="textsc">Ilov3Splat</span>.</strong> 
@@ -176,9 +202,11 @@
           </div>
         </div>
       </div>
-      <!--/ Method. -->
+    </div>
+  </section>
 
-      <!-- Experiments. -->
+  <section class="section section-alt" id="Experiments">
+    <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column is-four-fifths">
           <h2 class="title is-3 has-text-centered">Experiments</h2>
@@ -203,9 +231,11 @@
           </div>
         </div>
       </div>
-      <!--/ Experiments. -->
+    </div>
+  </section>
 
-      <!-- Video. -->
+  <section class="section" id="Videos">
+    <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column is-four-fifths">
           <h2 class="title is-3 has-text-centered">Videos</h2>
@@ -249,20 +279,22 @@
           </div>
         </div>
       </div>
-      <!--/ Video. -->
     </div>
   </section>
 
-
-  <section class="section" id="Acknowledgements">
+  <section class="section section-alt" id="Acknowledgements">
     <div class="container is-max-desktop">
-      <div class="acknowledgements-panel content has-text-justified">
-        <h2 class="title is-3">Acknowledgements</h2>
-        <p>
-          This work was supported in part by the Australian Research Council Discovery Project under Grant
-          DP250103634, and in part by the Commonwealth Scientific and Industrial Research Organisation (CSIRO). The
-          authors acknowledge continued support from the CSIRO's Embodied AI Cluster.
-        </p>
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3 has-text-centered">Acknowledgements</h2>
+          <div class="content has-text-justified">
+            <p>
+              This work was supported in part by the Australian Research Council Discovery Project under Grant
+              DP250103634, and in part by the Commonwealth Scientific and Industrial Research Organisation (CSIRO). The
+              authors acknowledge continued support from the CSIRO's Embodied AI Cluster.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -271,15 +303,15 @@
     <div class="container is-max-desktop content">
       <h2 class="title is-3">BibTeX</h2>
       <pre><code>@inproceedings{nguyen2026ilov3splat,
-author = {Nguyen, Binh Long and Nguyen, Kien and Sridharan, Sridha and Fookes, Clinton and Moghadam, Peyman},
-title = {Ilov3Splat: Instance-Level Open-Vocabulary 3D Scene Understanding in&nbsp;Gaussian Splatting},
-year = {2026},
-url = {https://doi.org/10.1007/978-3-032-31666-0_17},
-doi = {10.1007/978-3-032-31666-0_17},
-booktitle = {28th International Conference on Pattern Recognition (ICPR), ICPR 2026},
-pages = {251–266},
-numpages = {16},
-location = {Lyon, France}
+  author    = {Nguyen, Binh Long and Nguyen, Kien and Sridharan, Sridha and Fookes, Clinton and Moghadam, Peyman},
+  title     = {Ilov3Splat: Instance-Level Open-Vocabulary 3D Scene Understanding in Gaussian Splatting},
+  year      = {2026},
+  url       = {https://doi.org/10.1007/978-3-032-31666-0_17},
+  doi       = {10.1007/978-3-032-31666-0_17},
+  booktitle = {28th International Conference on Pattern Recognition (ICPR), ICPR 2026},
+  pages     = {251--266},
+  numpages  = {16},
+  location  = {Lyon, France}
 }</code></pre>
     </div>
   </section>
@@ -306,11 +338,6 @@ location = {Lyon, France}
             </p>
             <p>
               Website template adapted from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
-            </p>
-            <p>
-              This website is licensed under a <a rel="license"
-                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0
-                International License</a>.
             </p>
           </div>
         </div>
